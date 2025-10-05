@@ -88,8 +88,7 @@ app.get('/about', async (req, res) => {
       bio: [
         "Hi! I'm Cyryl Zhang from Vancouver, Canada. Currently, I'm in my junior year at NYU, where I'm pursuing a dual focus in Game Design and Computer Science.",
         "Recently, I've been deeply engaged with games like Hades 2 and Papers Please. Hades 2's incredible art style and roguelike mechanics have been inspiring my own game design philosophy, while Papers Please's unique approach to storytelling through bureaucratic gameplay has shown me how powerful minimalist design can be.",
-        "When I'm not coding or designing games, you'll find me exploring new indie games, travelling with my family, or exploring the latest gelato place.",
-        "This MERN stack project is part of my Agile Software Development and DevOps class, where I'm learning to build full-stack applications using modern web technologies."
+        "When I'm not coding or designing games, you'll find me playing the latest or some classic indie games, travelling with my family, or exploring the latest gelato place.",
       ],
       interests: [
         "Game Design",
