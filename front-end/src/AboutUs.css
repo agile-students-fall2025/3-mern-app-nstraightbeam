@@ -1,0 +1,151 @@
+/* Styles for the About Us page */
+
+.AboutUs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .AboutUs h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+  }
+  
+  .AboutUs-content {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .AboutUs-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .AboutUs-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+  }
+  
+  .AboutUs-header-info h2 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 2em;
+  }
+  
+  .AboutUs-location {
+    color: #666;
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+  
+  .AboutUs-education {
+    color: #007bff;
+    font-weight: 500;
+    margin: 5px 0;
+  }
+  
+  .AboutUs-bio {
+    margin-bottom: 30px;
+  }
+  
+  .AboutUs-bio p {
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .AboutUs-interests {
+    margin-bottom: 30px;
+  }
+  
+  .AboutUs-interests h3,
+  .AboutUs-gaming h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+  }
+  
+  .AboutUs-interests ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .AboutUs-interests li {
+    background: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.95em;
+  }
+  
+  .AboutUs-gaming {
+    margin-bottom: 20px;
+  }
+  
+  .AboutUs-games {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .AboutUs-game-tag {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 500;
+    box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+    transition: transform 0.2s;
+  }
+  
+  .AboutUs-game-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  }
+  
+  .AboutUs-error {
+    background: #fee;
+    color: #c33;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #fcc;
+  }
+  
+  .loading-icon {
+    margin: 20px auto;
+    display: block;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .AboutUs-header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .AboutUs-header-info {
+      text-align: center;
+    }
+  
+    .AboutUs h1 {
+      font-size: 2em;
+    }
+  
+    .AboutUs-content {
+      padding: 20px;
+    }
+  }
